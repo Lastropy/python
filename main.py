@@ -1,20 +1,18 @@
-class Animal: # superclass
+# an example of Inheritance.
+class Dog: # child classes
      owner_name = ""
      age = 0
      health_status = ""
-
-
-
-
-# an example of Inheritance.
-class Dog(Animal): # child classes
      def bark(self):
        print("Dog is barking...........")
 
     
 
 
-class Cat(Animal): # child classes
+class Cat: # child classes
+     owner_name = ""
+     age = 0
+     health_status = ""
      def meow(self):
        print("Cat is meowing.........")
 
